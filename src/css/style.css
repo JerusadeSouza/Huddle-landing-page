@@ -1,0 +1,81 @@
+html{
+    background-color: hsl(257, 40%, 49%);
+}
+
+body {
+    background: url(../images/bg-desktop.svg) center no-repeat;
+}
+
+.logo {
+    display: flex;
+    padding: 40px;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    color: #FFFFFF;
+    
+}
+
+.mockups{
+
+    padding-top: 30px;
+    margin-left: 40px;
+}
+
+.texto h1{
+    font-weight: 200px; 
+    font-size: 35px;
+    margin: 50px;
+}
+
+.texto p{
+    font-size: 18px;
+    line-height: 160%;
+    margin: 50px;
+}
+
+.menu li a.btn {
+    background-color: hsl(300, 69%, 71%);
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin-left: 3rem;
+    padding: 10px 20px;
+    transition:0.3s;
+    
+    
+}
+
+.footer {
+    padding: 30px 80px;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    border: 1.5px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.social .social-icon:hover {
+    color: hsl(300, 69%, 71%);
+    border: 2px solid hsl(300, 69%, 71%);
+}
+
+
